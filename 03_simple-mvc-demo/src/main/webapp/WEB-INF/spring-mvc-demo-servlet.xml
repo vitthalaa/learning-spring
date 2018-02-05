@@ -25,6 +25,11 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
+    <!-- Load custom message resources -->
+    <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+        <property name="basename" value="messages"/>
+    </bean>
+
     <!-- assign property value from properties file-->
     <util:properties id="countryOptions" location="WEB-INF/countries.properties"/>
 </beans>

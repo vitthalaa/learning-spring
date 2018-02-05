@@ -5,6 +5,8 @@
     <title>Customer confirmation</title>
 </head>
 <body>
-    The customer is confirmed: ${customer.firstName} ${customer.lastName}
+    The customer is confirmed: ${customer.firstName} ${customer.lastName}.
+    <br><br>
+    Number of free passes: ${customer.freePasses}
 </body>
 </html>
