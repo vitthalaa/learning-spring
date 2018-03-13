@@ -4,7 +4,7 @@ Basic spring demos for learning
 
 ---
 
-### Flux Design
+### Topics covered
 
 1. Dependency injection - XML
 2. Dependency injection - Annotations
